@@ -21,7 +21,6 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,8 +41,6 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
-
 @Composable
 fun ArticuloCompose(
     titulo: String,
@@ -72,11 +69,7 @@ fun ArticuloCompose(
         )
     }
 
-
 }
-
-
-
 @Preview(showBackground = true)
 @Composable
 fun ArticuloComposePreview() {
